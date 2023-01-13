@@ -11,3 +11,22 @@ body {
     background-color: $bgcolor;
     font-family: $fontFamily;
 }
+
+header {
+    align-items: center;
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    
+    li {
+        display: inline-block;
+
+    }
+}
+
+a {
+    color: $fontColor;
+    text-decoration: none;
+}
